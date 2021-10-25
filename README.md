@@ -1,2 +1,2 @@
-# React-marketplace-SPA
-This is a React Marketplace SPA
+# React-marketplace-application
+This is a React Marketplace application
