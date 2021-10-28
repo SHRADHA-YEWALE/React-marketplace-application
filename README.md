@@ -35,4 +35,10 @@ This application provides the functionality for user to post ads to sell their g
 - Handled Backend functionality with **Node js**.
 - Leveraging Express server to setup the data in backend. **data.js** file contains the product data.
 
+### Webpack
+- Setup webpack configurations for module bundle.
+
+### Babel
+- Setup babel configuration to transpile the javascript files.
+
 
