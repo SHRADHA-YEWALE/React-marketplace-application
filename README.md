@@ -17,8 +17,8 @@ This application provides the functionality for user to post ads to sell their g
 1. **Home Page**:
    * This page component is implemented with **Class Component**.
    * It will display all the ad posts that are available.
-   * There will be search bar to search for the product items along with the **_price filter_** to filter the search criteria while searching for the product items.
-   * Bootstrap grids are used to arrange the ad posts cards on page.
+   * There will be a search bar to search for the product items along with the **_price filter_** to filter the search criteria while searching for the product items.
+   * Bootstrap grids are used to arrange the ad posts cards on the page.
 
 2. **Result Page**:
    * This page component is implemented with **Class Component**.
@@ -26,8 +26,8 @@ This application provides the functionality for user to post ads to sell their g
 
 3. **Add Post Page**:
    * This page component is implemented with **Functional Component along with react hooks**.
-   * Implemented **React context** to manage global state. (Displaying the product item details that has added).
-   * It allows user to add product by adding product details(name, description, price, address, contact).
+   * Implemented **React context** to manage global state. (Displaying the product item details that have been added).
+   * It allows users to add products by adding product details(name, description, price, address, contact).
    * Implemented uploading the product image functionality with the use of **multer**.
   
 ### Backend
