@@ -1,0 +1,70 @@
+var products = [
+    {"itemId" : 1, "itemName" : "MacBook Pro", 
+    "itemDescription" : "Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.", 
+    "price" : 500, 
+    "location":"San Jose", 
+    "contact":"9876573821", 
+    "item_image":"macbookpro1.jfif", 
+    "images":[{"file_name": "macbookpro2.jfif"},{"file_name": "macbookpro3.jfif"},{"file_name": "macbookpro4.jfif"},{"file_name": "macbookpro5.jfif"}]},
+
+    {"itemId" : 2, "itemName" : "Apple iPhone 12 Pro Max", 
+    "itemDescription" : "A huge leap for Pro. iPhone 12 Pro Max. 5G to download huge files on the go and stream HDR video. Larger 6.7-inch Super Retina XDR display.", 
+    "price" : 919, 
+    "location":"San Francisco", 
+    "contact":"123456789", 
+    "item_image":"iphone12_1.jfif",
+    "images":[{"file_name": "iphone12_2.jfif"},{"file_name": "iphone12_3.jfif"},{"file_name": "iphone12_4.jfif"},{"file_name": "iphone12_5.jfif"},{"file_name": "iphone12_6.jfif"}]},
+
+    {"itemId" : 3, "itemName" : "Apple Watch", 
+    "itemDescription" : "Your Apple Watch can help you track important health information, including your menstrual cycle, high and low heart rates, and irregularities in heart rhythm.", 
+    "price" : 429, 
+    "location":"Sunnyvale", 
+    "contact":"7789038762", 
+    "item_image":"apwatch1.jfif",
+    "images":[{"file_name": "apwatch1.jfif"},{"file_name": "apwatch2.jfif"},{"file_name": "apwatch3.jfif"},{"file_name": "apwatch4.jfif"}]},
+
+    {"itemId" : 4, 
+    "itemName" : "Apple Desktop", 
+    "itemDescription" : "apple desktop computer · Apple - 21.5 iMac® with Retina 4K display - Intel Core i3 (3.6GHz) - 8GB Memory - 256GB SSD - Silver · 24 iMac®", 
+    "price" : 999, 
+    "location":"San Jose", 
+    "contact":"9876573821", 
+    "item_image":"adesktop1.jfif",
+    "images":[{"file_name": "adesktop2.jfif"},{"file_name": "adesktop3.jfif"},{"file_name": "adesktop4.jfif"}]},
+
+    {"itemId" : 5, "itemName" : "macbook pro", 
+    "itemDescription" : "MacBook Pro. Our most powerful notebooks. Fast M1 processors, incredible graphics, and spectacular Retina displays. Now available in a 14-inch model.", 
+    "price" : 800,
+    "location":"San Jose", 
+    "contact":"98906573821", 
+    "item_image":"macbookpro2.jfif", 
+    "images":[{"file_name": "macbookpro6.jfif"},{"file_name": "macbookpro5.jfif"}]},
+
+    {"itemId" : 6, "itemName" : "Sofa Set", 
+    "itemDescription" : "Your sofa set is the centre of attention in your living room furniture. Explore a variety of sofa design including L-shaped, Wooden sofas, Leather & Leatherette sofa sets, Fabric designs, Sofa cum beds, Recliner and Modular sofas, Loveseats and Divans with price on Urban Ladder.", 
+    "price" : 300,
+    "location":"San Jose", 
+    "contact":"2649621796", 
+    "item_image":"sofaset1.jfif", 
+    "images":[{"file_name": "sofaset2.jfif"},{"file_name": "sofaset3.jfif"},{"file_name": "sofaset4.jfif"},{"file_name": "sofaset1.jfif"}]},
+
+    {"itemId" : 7, "itemName" : "Chairs", 
+    "itemDescription" : "One of the basic pieces of furniture, a chair is a type of seat. Its primary features are two pieces of a durable material, attached as back and seat to one another at a 90°-or-slightly-greater angle,", 
+    "price" : 24,
+    "location":"San Francisco", 
+    "contact":"9654731658", 
+    "item_image":"chair2.jfif", 
+    "images":[{"file_name": "chair1.jfif"},{"file_name": "chair3.jfif"},{"file_name": "chair4.jfif.jfif"},{"file_name": "chair2.jfif"}]},
+
+    {"itemId" : 7, "itemName" : "Bed", 
+    "itemDescription" : "One of the basic pieces of furniture, a chair is a type of seat. Its primary features are two pieces of a durable material, attached as back and seat to one another at a 90°-or-slightly-greater angle,", 
+    "price" : 24,
+    "location":"San Francisco", 
+    "contact":"9654731658", 
+    "item_image":"bed3.jfif", 
+    "images":[{"file_name": "bed1.jfif"},{"file_name": "bed2.jfif"},{"file_name": "bed3.jfif"},{"file_name": "bed4.jfif"},{"file_name": "bed5.jfif"}]},
+
+
+]
+
+module.exports = products;

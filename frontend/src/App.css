@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.submitButton {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #76b900;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  font-family: DINWebPro-Medium;
+  width: 10em;
+}
+
+.textLabel {
+  color : #2a2b2a;
+  font-family: DINWebPro-Medium;
+  font-weight: normal;
+  font-size: 25px;
+  width: 25em;
+  height: 2em;
+}
+
+.commonTextLabel {
+  font-size: 30px;
+  font-family: DINWebPro-Medium;
+  color: #76b900;
+  padding-right: -250px;
+  padding-top: 13px;
+}
+
+.buttonLabel{
+  margin-top: 1px;
+  margin-bottom: 0px; 
+  color: #fff;
+  font-family: DINWebPro-Medium;
+  font-size: 25px;
+  
+}
+.postContainer{
+  padding-left: 40em;
+  padding-top: 10em;
+  margin-left: 1em;
+  max-width: 43em;
+  margin-top: 900em;
+  padding: 1em 3em 2em 3em;
+  margin: 7em auto;
+  background-color: #76b90000;
+  border-radius: 3px * 1.4;
+  box-shadow: 0px 3px 10px -2px rgba(234, 238, 232, 0.877);
+  opacity: 100;
+}
+
+.ItemAddedContainer{
+  font-size: 30px;
+  font-family: DINWebPro-Medium;
+  color: #76b900;
+  background-color: #76b90000;
+  padding-left: 10em;
+  padding-top: -50px;  
+  opacity: 100;
+  margin: 6em auto;
+  height: 22em;
+  width: 40em;
+
+}
+
+.CloseButton {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #76b900;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  font-family: DINWebPro-Medium;
+  width: 10em;
+}
+
+
+
+

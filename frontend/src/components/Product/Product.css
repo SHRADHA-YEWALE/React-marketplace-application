@@ -1,0 +1,89 @@
+.productCardTitle {
+    color : #76b900;
+    font-family: DINWebPro-Medium;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.productdetailsTitle {
+    color : #76b900;
+    font-family: DINWebPro-Medium;
+    font-weight: normal;
+    font-size: 50px; 
+}
+
+.productDescription {
+    color : #2a2b2a;
+    font-family: DINWebPro-Medium;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.productdetailsDescription {
+    font-size: 5rem; 
+    color : #2a2b2a;
+    font-family: BodyFont, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.image-preview{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.Modal {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 400em;
+    height: 50em;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s;
+    overflow: auto;
+    transition: all 0.3s linear;
+    
+  }
+  
+  .Modal-content {
+    background-color: #030303;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 4px;
+    max-width: 900px;
+    height: 800px;
+    padding-bottom: 5em;
+    backdrop-filter: blur(8px);
+  }
+  
+  .ModalOpen { overflow: hidden; }
+  
+  .is-hidden { display: none; }
+  
+  .is-visuallyHidden { opacity: 0; }
+
+  .Close {
+    color: #2e2d2d;
+    float: right;
+    font-size: 16px;
+  }
+  
+  .Close:hover, .Close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .productContainer{
+      margin-left: 15em;
+      margin-top: 10em;
+  }
+
+
+
+
+
