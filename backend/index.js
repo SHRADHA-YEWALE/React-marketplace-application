@@ -2,6 +2,19 @@
 var express = require('express');
 //create  an express app
 var app = express();
+
+//webpack
+// const webpack = require('webpack');
+// const webpackDevMiddleware = require('webpack-dev-middleware');
+// const config = require('./webpack/webpack.config.js');
+// const compiler = webpack(config);
+
+// app.use(
+//   webpackDevMiddleware(compiler, {
+//     publicPath: config.output.publicPath,
+//   })
+// );
+
 //require express middleware body-parser
 var bodyParser = require('body-parser');
 //require express session
