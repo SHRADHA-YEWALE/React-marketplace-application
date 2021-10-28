@@ -12,7 +12,7 @@ This application provides the functionality for user to post ads to sell their g
 - Run the command on both terminals: **npm start** (This will start both frontend and backend servers).
 - Go to http://localhost:3000
 
-### Functionalies
+### Functionalities
 
 1. **Home Page**:
    * This page component is implemented with **Class Component**.
