@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# React-marketplace-application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Introduction
+This application provides the functionality for user to post ads to sell their goods as well as browse others users ad posts.
 
-## Available Scripts
+### How to run this application
 
-In the project directory, you can run:
+- This application has to be run on localhost. 
+- There are two folders: **frontend** (Contains code for user interface with React) and **backend** (Contains code to handle backend functionality with Node JS).
+- Open the two terminals, each one in **frontend** and **backend** folder respectively.
+- Run the command on both terminals: **npm install**
+- Run the command on both terminals: **npm start** (This will start both frontend and backend servers).
+- Go to http://localhost:3000
 
-### `npm start`
+### Functionalies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Home Page**:
+   * This page component is implemented with **Class Component**.
+   * It will display all the ad posts that are available.
+   * There will be search bar to search for the product items along with the **_price filter_** to filter the search criteria while searching for the product items.
+   * Bootstrap grids are used to arrange the ad posts cards on page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. **Result Page**:
+   * This page component is implemented with **Class Component**.
+   * After clicking on particular posts, it will redirect to this page to display the product details. It will also display the product images.
 
-### `npm test`
+3. **Add Post Page**:
+   * This page component is implemented with **Functional Component along with react hooks**.
+   * Implemented **React context** to manage global state. (Displaying the product item details that has added).
+   * It allows user to add product by adding product details(name, description, price, address, contact).
+   * Implemented uploading the product image functionality with the use of **multer**.
+  
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Handled Backend functionality with **Node js**.
+- Leveraging Express server to setup the data in backend. **data.js** file contains the product data.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
