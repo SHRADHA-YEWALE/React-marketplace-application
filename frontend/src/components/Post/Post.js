@@ -143,7 +143,7 @@ function Post() {
                     <Col xs={6} md={6}>
                         <center>
 
-                            <h2 className="commonTextLabel" style={{ paddingRight: "2em", width: "20em" }}><b>Add New Product Item</b></h2><br /> <br />
+                            <h2 className="commonTextLabel" style={{ paddingRight: "2em", width: "20em", height: "1rem" }}><b>Add New Product Item</b></h2><br /> <br />
                             <Form onSubmit={addItem}>
                                 <Form.Group as={Row} controlId="item_name" className="textLabel">
                                     <Form.Label column sm="4">

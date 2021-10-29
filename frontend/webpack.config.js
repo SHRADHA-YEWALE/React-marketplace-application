@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path:path.resolve(__dirname, "bundle"),
   },
+  //Configure webpack to use babel
   module: {
     rules: [
       {

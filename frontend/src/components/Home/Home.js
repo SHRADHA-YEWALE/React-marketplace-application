@@ -148,8 +148,6 @@ class Home extends Component {
                         </Form>
                     </div>
 
-                    <div className="welcomeTitle">
-                    </div>
                     <br /><br />
                     {noRecordMessage}
                     <Row md="6">{postCards}</Row>

@@ -92,16 +92,16 @@ class ProductDetails extends Component {
                     <table>
                         <tr>
                             <td>
-                                <Card style={{ width: "40rem", height: "38rem", margin: "2%", backgroundColor: "#ffffff", paddingRight: "0em" }}>
+                                <Card style={{ width: "35rem", height: "30rem", margin: "2%", backgroundColor: "#ffffff", paddingRight: "0em" }}>
                                     <Col md={12}>
                                         <Row >
-                                            <Card.Img style={{ width: "40rem", height: "38rem" }} src={itemImageSrc} className="img-thumbnail" />
+                                            <Card.Img style={{ width: "35rem", height: "30rem" }} src={itemImageSrc} className="img-thumbnail" />
                                         </Row>
                                     </Col>
                                 </Card>
                             </td>
                             <td>
-                                <Card style={{ width: "45rem", height: "38rem", margin: "2%", backgroundColor: "#ffffff", paddingRight: "0em" }}>
+                                <Card style={{ width: "45rem", height: "30rem", margin: "2%", backgroundColor: "#ffffff", paddingRight: "0em" }}>
 
                                     <Col md={12}>
 

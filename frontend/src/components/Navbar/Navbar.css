@@ -11,7 +11,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 250px;
+    padding-left: 200px;
   }
   
   .navbar .leftSide img {
@@ -25,12 +25,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1000px;
+    padding-left: 800px;
 
   }
   
   .navbar a {
-    color: white;
+    color: #76b900;
     text-decoration: none;
     margin: 20px;
   }
@@ -38,7 +38,7 @@
   .navbar .rightSide button {
     background-color: transparent;
     border: none;
-    color: white;
+    color: #76b900;
     cursor: pointer;
   }
   

@@ -8,6 +8,7 @@ const initialState = {
 };
 
 const Store = ({ children }) => {
+    //Hooked a reducer function with initialstate to access the store to manage the state.
     const [state, dispatch] = useReducer(Reducer, initialState);
     return (
         <Context.Provider value={[state, dispatch]}>
@@ -16,5 +17,6 @@ const Store = ({ children }) => {
     )
 };
 
+//Creating store with initial state.
 export const Context = createContext(initialState);
 export default Store;

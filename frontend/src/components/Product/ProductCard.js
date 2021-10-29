@@ -12,7 +12,7 @@ class PostCard extends Component {
     var productData = this.props.product;
     let imageSrc = endPointObj.url + "/images/product/" + this.props.product.item_image;
     return (
-      <Card bg="white" style={{ width: "25rem", margin: "5%" }}>
+      <Card bg="white" style={{ width: "20rem", margin: "5%" }}>
         <Link to={{ pathname: '/product', state: productData }}>
           <Card.Body>
             <Card.Img
